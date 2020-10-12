@@ -1,0 +1,50 @@
+div:before{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 80%;
+    margin: 0px 0px 0px 0px;
+    border-width: 50px 50px 50px 50px;
+    border-style: solid;
+    border-color: transparent transparent rgb(72, 134, 83) transparent;
+}
+div:after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 80%;
+    margin: 0px 0px 0px 0px;
+    border-width: 50px 50px 50px 50px;
+    border-style: solid;
+    border-color: rgb(72, 134, 83) transparent transparent transparent;
+}
+div:nth-child(1):before {
+    border-color: transparent transparent rgb(179, 29, 99) transparent;
+} 
+div:nth-child(1):after{
+    border-color: rgb(179, 29, 99) transparent transparent transparent;
+}
+div:nth-child(2):before  {
+    border-color: transparent transparent rgb(88, 33, 139) transparent;  
+} 
+div:nth-child(2):after{
+    border-color: rgb(88, 33, 139) transparent transparent transparent;
+}
+div:nth-child(3):before  {
+    border-color: transparent transparent rgb(193, 223, 22) transparent;  
+}
+div:nth-child(3):after{
+    border-color: rgb(193, 223, 22) transparent transparent transparent;
+} 
+div:nth-child(4):before  {
+    border-color: transparent transparent rgb(32, 196, 17) transparent;    
+}
+div:nth-child(4):after{
+    border-color: rgb(32, 196, 17) transparent transparent transparent;
+} 
+div:nth-child(5):before  {
+    border-color: transparent transparent rgb(167, 20, 20) transparent;   
+}
+div:nth-child(5):after{
+    border-color: rgb(167, 20, 20) transparent transparent transparent;
+}

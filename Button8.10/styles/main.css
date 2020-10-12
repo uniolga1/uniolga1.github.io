@@ -1,0 +1,17 @@
+.button1 { display: inline-block;
+    height: 45px;
+    width: 120px;
+    padding: 15px 35px 35px 35px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(#70104b, #095e2a, #f6ef02);
+    border: none;
+    border-radius:5px;
+    box-shadow: 0 9px rgb(199, 97, 97);}
+
+    button:hover{
+    background:linear-gradient(#219e3c, #856819, #1fa370);
+    box-shadow:none;}
